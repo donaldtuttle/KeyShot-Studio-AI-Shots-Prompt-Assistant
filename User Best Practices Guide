@@ -1,0 +1,195 @@
+## `User Best Practices Guide.txt`
+
+
+---
+
+# 📘 KeyShot AI — **User Best Practices Guide**
+
+*For Restyle, Imagine, and Background Modes*
+**Version:** 1.1 · June 2025
+
+---
+
+## 🔑 Goal of This Guide
+
+To help creative teams write better prompts, faster — with clear intent, controlled environments, and realistic outcomes that elevate your product renders.
+
+---
+
+## 🧭 Start With the Right Mode
+
+| Mode           | Use This When You Want To...                             | Requires a Render? |
+| -------------- | -------------------------------------------------------- | ------------------ |
+| **Restyle**    | Explore CMF (color, material, finish) changes            | ✅ Yes              |
+| **Imagine**    | Visualize new scenes or moods from scratch (no modeling) | ❌ No               |
+| **Background** | Place your render in a contextual environment            | ✅ Yes              |
+
+---
+
+## ✍️ How to Write Strong Prompts
+
+### ✅ DO:
+
+* Focus on **mood, material, lighting, and setting**
+* Use **real-world material terms** (e.g. *brushed aluminum*, *frosted glass*)
+* Describe the **emotional tone** (e.g. *clean and clinical*, *warm and bold*)
+* Name **surface types** and **lighting styles** (see tables below)
+* Use simple, natural language — avoid technical jargon
+
+### 🚫 DON’T:
+
+* Ask for **camera movements**, **scene re-composition**, or **model edits**
+* Include **people**, **vehicles**, or **branded objects**
+* Stack too many visual ideas in one prompt (3–4 elements max)
+* Use terms like *HDRI*, *zoomed in*, *rotate*, *equirectangular*, etc.
+
+---
+
+## 🏗️ Mode-by-Mode Prompt Templates
+
+### 🎨 Restyle (Product Finish & Mood)
+
+> *Restyle this scene using a \[material style] approach. Incorporate \[materials or textures] with \[lighting style] for a \[mood or aesthetic]. The result should evoke \[emotion or use-case].*
+
+**Example:**
+
+> “Restyle using a tech-forward CMF: brushed steel, matte black polymer, and cool ambient lighting. Make it feel engineered and modern.”
+
+---
+
+### 🌌 Imagine (Visual Moodboards & Concept Art)
+
+> *Imagine a \[setting] filled with \[key visual features]. Use \[lighting style] to create a \[vibe or emotion] atmosphere. This supports ideas for \[industry or concept].*
+
+**Example:**
+
+> “Imagine a minimalist, all-white meditation chamber with floating panels and soft ambient shadows. It should feel weightless and introspective — ideal for wellness tech concepts.”
+
+---
+
+### 🏙️ Background (Scene Context Behind Product)
+
+> *Create a background of a \[setting type] with a \[ground material] and \[lighting condition]. The scene should feel \[mood or style] and support visuals for \[product or use-case].*
+
+**Example:**
+
+> “Background of a modern workshop with concrete bench, copper circuitry, and neutral daylight. Aimed at showcasing premium PC components.”
+
+---
+
+Modular Prompt Starters
+Let users build their own prompts using mix-and-match slots like Mad Libs:
+
+Template A — Restyle:
+
+“Restyle this scene using [primary materials] and [surface finish]. Illuminate with [lighting type] for a [mood/emotion] feel — suitable for [season/brand/style].”
+
+Template B — Background:
+
+“Background of a [setting type] with [floor or surface type] and [light quality]. It should feel [emotional tone] and support [product type or audience].”
+
+Template C — Imagine:
+
+“Imagine a [thematic world or space] with [core visual features] and [light behavior]. The mood is [emotion or tone], designed to explore [industry or vision].”
+
+
+---
+
+## 🧱 Visual Vocabulary Cheat Sheet
+
+### 🧱 Environment Settings
+
+| Use Case         | Environment Examples                            |
+| ---------------- | ----------------------------------------------- |
+| Tech Products    | PCB surface, studio platform, modular lab wall  |
+| Lifestyle        | Wood tabletop, neutral loft interior            |
+| Clinical/Medical | White floor, stainless steel, glass partitions  |
+| Outdoor          | Gravel trail, wooden deck, sunlit stone         |
+| Luxury           | Polished marble, soft velvet, gold-toned accent |
+
+### 💡 Lighting Styles
+
+| Style             | Use When You Want...                           |
+| ----------------- | ---------------------------------------------- |
+| Soft Ambient      | Balanced mood, natural light, no harsh shadows |
+| Studio Spotlights | Clear product focus, hard contrast             |
+| Golden Hour       | Warm, emotional glow, cinematic feel           |
+| Cool Clinical     | Clean, sterile tone, tech/medical vibes        |
+| Overcast          | Muted lighting, atmospheric depth              |
+
+---
+
+## 🌀 When in Doubt, Ask Yourself:
+
+* What emotion or tone do I want the scene to evoke?
+* What’s the surface under/around the product?
+* Is this for lifestyle branding, technical showcase, or concept art?
+* Do I want a warm, neutral, or cool lighting feel?
+
+---
+
+## 🔁 Prompt Expansion Tips
+
+If your result isn’t quite right:
+
+* Try changing **lighting style** (e.g. “studio spotlight” vs “soft ambient”)
+* Swap out one **material** for a more natural/synthetic one
+* Reframe your **mood word** (e.g. “moody,” “inviting,” “sterile,” “cinematic”)
+* Ask for a variation: *“Can you make this bolder / more minimal?”*
+
+---
+
+## 🎯 Final Advice
+
+Keep prompts focused and intentional. The AI engine works best when:
+
+* It knows the **visual goal**
+* The **environment supports** the subject
+* Materials and lighting are described simply but specifically
+
+🧠 Think: *Emotion + Environment + Material + Light*
+
+---
+
+## 🔧 Qwen Structured Prompting (KeyShot 2026.1)
+
+KeyShot 2026.1 uses the **Qwen** image generation model, which performs best with **structured, attribute-based prompts**. Think of prompt writing as **scene specification** rather than creative prose.
+
+### The Structured Approach
+
+Instead of writing:
+> "A beautiful, stunning scene with amazing lighting and gorgeous materials"
+
+Write with explicit attributes:
+> MATERIALS: brushed aluminum, matte black polymer, frosted glass
+> LIGHTING: soft key light from upper left, subtle rim light
+> COLOR: gunmetal gray, deep navy accents
+
+### Quick Rules for Qwen
+
+1. **Lead with the thing** — the first phrase should identify the hero subject
+2. **Physical before stylistic** — describe real-world visual properties before aesthetics
+3. **Composition is not optional** — always specify framing for consistent results
+4. **Lighting should be directional** — "cinematic lighting" alone is too weak
+5. **Surface response matters** — material language is the biggest consistency multiplier
+6. **Avoid adjective pileups** — "beautiful stunning amazing" reduces stability
+7. **Use style as a renderer** — style should refine, not carry the entire prompt
+
+### PBR-Equivalent Prompt Thinking
+
+Think of the structured prompt as a render pipeline:
+
+| Prompt Field | Render Equivalent |
+|-------------|-------------------|
+| Subject | Geometry / asset selection |
+| Composition | Layout pass |
+| Environment | Set dressing |
+| Lighting | Light rig |
+| Materials | Shader / BRDF definition |
+| Camera | Lens and sensor choice |
+| Style | Renderer / art direction |
+| Quality | Sampling / resolution target |
+| Exclusions | Error control |
+
+---
+
