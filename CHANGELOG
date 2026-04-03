@@ -1,0 +1,77 @@
+## 📑 CHANGELOG.txt
+
+---
+
+## KeyShot AI Prompt Assistant – Change Log
+
+A running log of all major updates, additions, and revisions made to the KeyShot AI Prompt Assistant’s documentation, knowledge files, and system logic.  
+*For all updates, please include date, version, change summary, affected files, and author/contributor.*
+
+---
+
+### [v2.0.0] – 2026-03-06
+
+**Major Update: Qwen Model Transition**
+- Migrated all prompt guidance from FLUX.1 to Qwen image generation model
+- Added structured prompt grammar framework (SUBJECT → EXCLUSIONS pipeline)
+- Updated all mode guides with Qwen-optimized structured prompt templates
+- Added Universal Prompt Grammar reference sections
+- Updated prompt templates with compiled and structured format variants
+- Refreshed GPT system prompt for Qwen prompt compilation behavior
+- Version bump to 2.0
+
+**Author:** Don Tuttle
+**Contributors:** Claude AI
+
+---
+
+### [v1.0.1] – 2025-07-30
+** Update:**
+- Added KeyShot AI model instructions.
+
+---
+
+### [v1.0.0] – 2025-06-10
+
+**Initial release:**
+- Established AI directory and document structure for the assistant.
+- Core knowledge files added:  
+  - `README.txt`  
+  - `ToC.txt`  
+  - `AI_Tool_Overview.txt`  
+  - `Restyle_Mode_Guide.txt`  
+  - `Imagine_Mode_Guide.txt`  
+  - `Background_Mode_Guide.txt`  
+  - `Prompt_Template_Library.txt`  
+  - `Example_Use_Cases.txt`  
+  - `GPT_Guidelines.txt`  
+- Custom GPT system prompt defined (`Prompt.txt`).
+- All prompt templates, best practices, and vocabulary lists included.
+- Directory conventions and onboarding structure finalized.
+
+**Author:** Don Tuttle  
+**Contributors:** Chat GPT4o & HDRI & Backplate GPT
+
+---
+
+### [v1.0.1] – YYYY-MM-DD
+
+**[Template for future updates]**  
+- [Brief description of change or addition]
+- [Files changed or added]
+- [Any notes on backward compatibility or user-facing impact]
+
+**Author:**  Don Tuttle
+**Contributors:** N/A
+
+---
+
+## Change Log Usage Instructions
+
+- Add each new update or patch in reverse chronological order (newest first).
+- Reference specific files/directories and note if ZIP/PromptPack content was integrated.
+- For significant changes, describe the impact on workflow or prompt authoring.
+- Minor typo fixes or style edits may be batched as a single entry.
+
+---
+
