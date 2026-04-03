@@ -1,0 +1,352 @@
+## 📄 `Imagine_Mode_Guide.txt`
+
+---
+
+# 🌌 Imagine Mode Guide
+
+**Mode:** `Imagine`
+**Purpose:** Concept exploration — generate high-impact visual ideas from scratch using just a prompt, without requiring modeling or setup.  
+
+---
+
+## 🎯 Overview
+
+Imagine Mode in KeyShot AI is built for **early-stage creative thinking** — a freeform visual canvas driven entirely by text. It lets users quickly generate evocative concept visuals to explore **form, setting, mood, and visual direction**, without the need to model anything upfront.
+
+This is the go-to mode for creating **moodboards**, pitching **visual territories**, and kickstarting projects with **imagination-first storytelling**.
+
+---
+
+## 🧠 Key Behavior
+
+* Users provide prompts describing abstract concepts, moods, or environments.
+* AI generates complete visual outputs — no model or setup needed.
+* Perfect for raw inspiration, team alignment, or speculative directions.
+* No expectations of realism or product accuracy — just storytelling and mood.
+
+---
+
+🌌 Imagine Mode for Texture & Gobo Generation
+Use Case: Create stylized concept images to be used as custom gobo cutouts, projection masks, or texture overlays — especially black & white or silhouette-based.
+
+🎯 Creative Guidelines
+✅ What works well:
+
+High-contrast black-and-white scenes
+
+Isolated silhouettes or symbolic shapes
+
+Atmospheric lightplay (e.g., shadows, mist, glow edges)
+
+Abstract organic or architectural forms
+
+🚫 What to avoid:
+
+Real-world logos, branded designs
+
+Over-detailed scenes (should stay iconic/symbolic)
+
+Mentions of camera, UVs, renders, or geometry structure
+
+🔧 New Prompt Template: Textural/Lighting Asset Concept
+Imagine a [black and white / high-contrast / minimal] visual of [subject], designed as a [texture, projection, or gobo image]. The composition should be clean and iconic, with [lighting or form cues]. This will support material exploration or lighting design.
+
+✅ Example Prompts for Gobo / Texture Concepts
+🌳 Organic Gobo – Nature Theme
+“Imagine a black-and-white silhouette of a tree with bare branches and birds perched in delicate poses. The image is clean, iconic, and framed to be used as a gobo light texture — evocative of quiet nature and soft shadow play.”
+
+🏙️ Architectural Pattern for Light Casting
+“Imagine a sharp black-and-white pattern of geometric window panes and steel trusses, backlit with directional light casting angled shadows. The result should resemble an abstract urban skyline — perfect for lighting overlays or textural moodboards.”
+
+🌀 Abstract Material Map
+“Imagine a high-contrast swirl pattern resembling ink in water, rendered in flowing black and white gradients. The image should feel dynamic and organic, suitable for use as a texture mask in soft-touch polymers or iridescent coatings.”
+
+🧠 Bonus: Suggested Subject Themes
+Theme	Subject Idea Examples
+Nature	Tree branches, fern leaves, feathers, cloud wisp
+Urban	Scaffolding, fire escapes, brutalist silhouettes
+Organic Motion	Smoke trails, flowing fabric, waveforms
+Spiritual	Mandalas, ancient symbols, sacred geometry
+Mechanical	Gear clusters, wire tangles, schematic lines
+
+
+---
+
+## 🛠️ Prompt Structure Template
+
+```
+# **Imagine Prompt**:
+“Imagine a [setting or abstract world] filled with [visual features]. Use [light behavior] to evoke a [mood or emotion].  KeyShot AI should prioritize mood, genre, and visual story — no geometry or modeling logic needed."
+
+**Imagine Prompt Example**:
+“Imagine a translucent canyon of floating ice slabs, lit by a soft lavender sky glow. The scene should feel isolated, serene, and mystical — designed for speculative wellness tech.”
+```
+
+---
+
+🌌 Imagine Mode Templates
+Concept scenes for visual exploration, storytelling, or worldbuilding.
+
+✨ Hero Product Spotlight World
+“Imagine a futuristic stage environment made entirely of translucent glass panels with glowing floor seams and ambient fog. The lighting should be cinematic and reverent — designed to elevate a hero product showcase.”
+
+🔮 Abstract Material Exploration
+“Imagine a surreal material library with floating swatches of brushed metal, iridescent film, frosted glass, and rough linen, each illuminated by their own tonal light. Use this to explore early CMF directions.”
+
+🛰️ Tech Dystopia Vision
+“Visualize a shadowy control room with layered digital interfaces, dark graphite walls, and pulsing data cores. The atmosphere should be claustrophobic and high-stakes — for concepting dystopian UI environments.”
+
+---
+
+## ✅ Sample Prompts
+
+1.
+
+> “Imagine a tranquil, fog-covered forest trail at dawn, with mossy textures, diffused golden light, and dew on leaves. The mood should feel meditative and organic — perfect for early exploration of wellness product direction.”
+
+2.
+
+> “Visualize a futuristic subway system under a glowing cyan light grid. Include sleek metallic surfaces and soft fog in the air. The tone should be mysterious and tech-driven — ideal for immersive mobility concepts.”
+
+3.
+
+> “Sketch an alien coastline with coral-like towers, iridescent mist, and three moons on the horizon. The atmosphere should be surreal and haunting — a canvas for conceptual sci-fi packaging or worldbuilding.”
+
+---
+
+## 🔧 Creative Levers to Include
+
+| Category            | Examples                                                  |
+| ------------------- | --------------------------------------------------------- |
+| **Environment**     | jungle ruins, arctic lab, industrial megastructure        |
+| **Lighting Style**  | soft ambient, neon glow, moody twilight                   |
+| **Surface Details** | glass, moss, rusted steel, holograms                      |
+| **Genre or Mood**   | sci-fi, dystopian, serene, retro-futuristic               |
+| **Narrative Cues**  | post-apocalyptic shelter, spiritual temple, alien outpost |
+
+---
+
+## 💡 Best Practices
+
+* Begin with a strong **mood** or **genre** (not specific product).
+* Use **cinematic or emotional tone** to define scene direction.
+* Avoid calling out specific brand styles or object placements.
+* Don't over-constrain the prompt — allow ambiguity for creative flow.
+* Ideal for **concept artists, design directors, and innovation teams**.
+
+---
+
+## 🚫 Constraints
+
+* Don’t reference real-world brands, celebrities, or IPs.
+* Avoid requiring accurate physical product renders — this mode is abstract.
+* No modeling logic, layout preservation, or lighting matching needed.
+* Do not use terms like “camera,” “HDRI,” or “equirectangular.”
+
+---
+
+## 🎯 Ideal Use Cases
+
+* Building high-level moodboards for internal alignment
+* Exploring visual metaphors or genre-driven themes
+* Starting visual territories for packaging, fashion, or architecture
+* Stimulating stakeholder discussion around creative intent
+
+---
+
+## 📈 Real-World User Examples
+
+| Role                 | Use Case                                                                       |
+| -------------------- | ------------------------------------------------------------------------------ |
+| Industrial Designer  | Explored “bio-tech minimalism” and “sci-fi brutalism” themes before modeling   |
+| UX/UI Team           | Created multiple imagined UI worlds for wearable concepts                      |
+| Packaging Strategist | Generated mood-rich “future wellness” settings to inspire structural direction |
+
+---
+
+Fantastic question — Imagine Mode is your **deep ideation engine**, and it thrives in exactly the kind of **early-stage visual exploration** you're talking about. Below is a curated expansion of **high-value Imagine Mode use cases** beyond what’s already in your documentation — each with prompt examples, creative purpose, and ideal outputs for product, design, or brand teams.
+
+---
+
+# 🧠 **Expanded Imagine Mode Concepts & Use Cases**
+
+*Unlock new directions for material textures, lighting, branding, packaging, and product storytelling.*
+
+---
+
+## 1. 🎭 **Mood-Based Lighting Studies**
+
+> Generate environments designed purely to inspire **lighting tones**, **gobo shadow effects**, and **color ambiance**.
+
+### Prompt Example:
+
+> “Imagine a misty pine forest at twilight with shafts of violet and teal light cutting through trees. The scene should feel cinematic, mysterious, and moody — ideal for lighting direction studies in tech branding.”
+
+**Creative Use:**
+
+* Lighting tone references
+* Rim light inspiration
+* GoBo light cutout moods
+* Ambient glow palettes
+
+---
+
+## 2. 🧵 **Material Surface Concepts**
+
+> Visual exploration of **abstract materials**, **surface finishes**, or **macro textures**.
+
+### Prompt Example:
+
+> “Imagine a surface made of tangled translucent fibers, lit from within by shifting orange and blue glow. The material should feel breathable and otherworldly — a texture concept for next-gen wearables.”
+
+**Creative Use:**
+
+* Procedural texture references
+* Material finish moodboards
+* Touch/feel storytelling
+
+---
+
+## 3. 📦 **Packaging Form + Mood Vignettes**
+
+> Conceptualize abstract or sculptural packaging shapes in themed environments.
+
+### Prompt Example:
+
+> “Visualize a surreal soapstone altar in a quiet desert, holding a levitating minimalist bottle with frosted surfaces. The mood is sacred and elemental — a visual metaphor for premium packaging design.”
+
+**Creative Use:**
+
+* Early packaging art direction
+* Brand metaphors (natural, tech, luxury)
+* Mood-first form studies
+
+---
+
+## 4. 🌌 **Fictional Brand Worlds**
+
+> Create imagined brand territories, concept spaces, or experiential set pieces.
+
+### Prompt Example:
+
+> “Imagine a weightless showroom orbiting in space, filled with floating modular panels and a gentle blue glow. The space is calm and intelligent — a brand world concept for futuristic tech wellness.”
+
+**Creative Use:**
+
+* Pitch decks
+* Art direction
+* Immersive brand storytelling
+
+---
+
+## 5. 🎨 **Color Palette + Finish Sketchboards**
+
+> Use scenes to establish **atmospheric color direction** for seasonal or tonal palettes.
+
+### Prompt Example:
+
+> “Imagine a horizon of color bands — peach, pale sage, dusty indigo — fading into each other across soft sand dunes. The mood is tranquil, elegant, and balanced — a visual palette for spring design language.”
+
+**Creative Use:**
+
+* Palette reference generation
+* CMF palette grounding scenes
+* Visual tone alignment (branding)
+
+---
+
+## 6. ⛩️ **Cultural or Symbolic Visual Research**
+
+> Explore motifs and textures from historical, spiritual, or regional contexts — reinterpreted through mood and tone.
+
+### Prompt Example:
+
+> “Imagine a temple gate overgrown with golden vines and hanging lanterns. Rain falls in vertical sheets. The scene is quiet, sacred, and cinematic — evoking ritual and renewal for packaging or jewelry concepting.”
+
+**Creative Use:**
+
+* Cultural moodboard generation
+* Pattern/ornament reference
+* Storytelling packaging visuals
+
+---
+
+## 7. 🌀 **Negative Space / Cutout Studies (For Gobo, Laser, UI masks)**
+
+> Generate silhouette-style studies of organic or mechanical forms.
+
+### Prompt Example:
+
+> “Imagine a black-and-white image of a broken circuit diagram where the paths form a fragmented mandala. Use only light and void. This is for a projected UI mask or laser-cut metal application.”
+
+**Creative Use:**
+
+* Gobo shadows
+* UI mask overlays
+* Laser-cut or etchable textures
+
+---
+
+## 🔧 Qwen-Optimized Structured Prompts for Imagine
+
+As of KeyShot 2026.1, the Qwen model benefits from structured, attribute-based prompts even for abstract concept generation. For Imagine Mode, all fields are active since the entire scene is generated from scratch.
+
+### Full Structured Imagine Template
+
+```
+SUBJECT: [primary scene element or concept]
+ATTRIBUTES: [form, design language, distinguishing visual traits]
+STATE: [condition, atmosphere, temporal cue]
+COMPOSITION: [framing, angle, depth staging]
+ENVIRONMENT: [setting, spatial context, world type]
+LIGHTING: [source, direction, softness, color temperature, mood]
+MATERIALS: [surface types, textures, reflectivity, micro-detail]
+COLOR: [dominant palette, accents, saturation, contrast]
+CAMERA: [lens feel, depth of field, perspective]
+STYLE: [visual medium, genre, aesthetic treatment]
+QUALITY: [detail level, realism target, atmosphere]
+EXCLUSIONS: [unwanted elements, artifact suppression]
+```
+
+### Example: Bio-Tech Concept Scene
+
+**Structured:**
+```
+SUBJECT: organic translucent growth structure
+ATTRIBUTES: flowing biomorphic forms, bioluminescent veins, coral-like branching
+STATE: slowly pulsing with internal light, alive and growing
+COMPOSITION: wide establishing shot, subject centered with depth layers
+ENVIRONMENT: underwater cavern with soft volumetric haze
+LIGHTING: bioluminescent internal glow, soft teal ambient fill, subtle caustic patterns
+MATERIALS: translucent organic membrane, iridescent chitinous shell, wet glossy surfaces
+COLOR: deep ocean teal, bioluminescent cyan, warm amber glow accents
+CAMERA: 24mm wide-angle feel, moderate depth of field, immersive perspective
+STYLE: cinematic concept art with grounded bio-organic realism
+QUALITY: high detail, atmospheric depth, rich volumetric lighting
+EXCLUSIONS: no people, no mechanical elements, no text, no branded content
+```
+
+**Compiled:**
+```
+organic translucent growth structure with flowing biomorphic forms and bioluminescent veins, slowly pulsing with internal light, wide establishing shot with depth layers, underwater cavern with soft volumetric haze, bioluminescent internal glow with soft teal ambient fill and subtle caustic patterns, translucent organic membrane and iridescent chitinous shell with wet glossy surfaces, deep ocean teal and bioluminescent cyan with warm amber glow accents, 24mm wide-angle immersive perspective, cinematic concept art with grounded bio-organic realism, high detail atmospheric depth rich volumetric lighting, no people no mechanical elements no text no branded content
+```
+
+### Example: Abstract Material Library
+
+**Structured:**
+```
+SUBJECT: floating material swatches in void space
+ATTRIBUTES: organized grid of five distinct material samples, each self-illuminated
+STATE: hovering in still air, each sample reflecting its own tonal light
+COMPOSITION: centered symmetrical layout, medium shot
+ENVIRONMENT: infinite dark void with subtle gradient
+LIGHTING: individual tonal spotlights per swatch, no global illumination
+MATERIALS: brushed titanium, frosted glass, raw linen, iridescent film, liquid mercury
+COLOR: monochrome base with each swatch introducing its natural color
+CAMERA: 50mm standard lens feel, deep focus, clean perspective
+STYLE: material study visualization, studio product photography aesthetic
+QUALITY: ultra-detailed surface textures, crisp edges, gallery-quality finish
+EXCLUSIONS: no background clutter, no overlapping samples, no text labels
+```
+
+---
