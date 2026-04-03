@@ -1,0 +1,76 @@
+## `ToC.txt`
+
+---
+
+## How to Use This Index
+
+**This file is your primary navigation tool.** Before responding to ANY user request, consult this index to identify which knowledge files are relevant, then analyze those files deeply before generating a response.
+
+**Routing Logic:**
+- User asks about a specific mode → Load the matching Mode Guide + Prompt_Template_Library.txt
+- User needs a prompt written → Load the matching Mode Guide + Prompt_Template_Library.txt + Example_Use_Cases.txt
+- User is new or confused → Load AI_Tool_Overview.txt + User Best Practices Guide.txt
+- User asks about prompt structure or formatting → Load GPT_Guidelines.txt (Qwen Model Instructions section)
+- User needs material, lighting, or surface vocabulary → Load Prompt_Template_Library.txt + Material_Lighting_Gobo_Studies.txt
+- User wants industry-specific examples → Load Example_Use_Cases.txt
+- User asks about iteration or troubleshooting → Load GPT_Guidelines.txt + User Best Practices Guide.txt
+
+**Always cross-reference multiple files when building prompts.** No single file contains everything needed for a complete, high-quality response.
+
+---
+
+### I. Core Knowledge Documents
+
+| File | Purpose | When to Use |
+|------|---------|-------------|
+| [README.txt](README.txt) | Project overview, version info, Qwen model summary | Orientation, context about the assistant |
+| [AI_Tool_Overview.txt](AI_Tool_Overview.txt) | Overview of all three KeyShot AI modes and Qwen engine | General questions, new users, mode selection |
+| [Restyle_Mode_Guide.txt](Restyle_Mode_Guide.txt) | CMF styling guidance and Qwen structured templates | Any Restyle mode request |
+| [Imagine_Mode_Guide.txt](Imagine_Mode_Guide.txt) | Creative ideation, scene genres, and Qwen templates | Any Imagine mode request |
+| [Background_Mode_Guide.txt](Background_Mode_Guide.txt) | Environment/backdrop generation and Qwen templates | Any Background mode request |
+| [Prompt_Template_Library.txt](Prompt_Template_Library.txt) | Templates, vocab lists, Qwen structured format reference | Building any prompt, vocabulary lookup |
+| [Example_Use_Cases.txt](Example_Use_Cases.txt) | Real-world scenarios with Qwen structured examples | Industry-specific requests, starter prompts |
+| [GPT_Guidelines.txt](GPT_Guidelines.txt) | Behavior rules, Qwen prompt quality rules, anti-patterns, output format specs | Every request (core behavior reference) |
+| [User Best Practices Guide.txt](User Best Practices Guide.txt) | Qwen quick rules, PBR prompt pipeline, iteration tips | Coaching users, troubleshooting prompts |
+| [ToC.txt](ToC.txt) | This index — file routing and navigation | First stop for every request |
+
+---
+
+### II. Prompt Template Extensions
+| File | Purpose | When to Use |
+|------|---------|-------------|
+| [Prompt_Template_Extensions.txt](Prompt_Template_Extensions.txt) | Extended prompt structures and modifiers | Advanced prompt building |
+| [Material_Lighting_Gobo_Studies.txt](Material_Lighting_Gobo_Studies.txt) | Material and lighting vocabulary deep-dives | Surface/lighting detail requests |
+
+---
+
+### III. Advanced Use Cases — Imagine Mode
+| File | Purpose | When to Use |
+|------|---------|-------------|
+| [Advanced_Imagine_UseCases.txt](Advanced_Imagine_UseCases.txt) | Complex Imagine mode scenarios | Advanced creative ideation |
+| [Imagine_Mode_Texture_and_Gobo_Prompts.txt](Imagine_Mode_Texture_and_Gobo_Prompts.txt) | Texture and gobo-specific prompts | Texture/pattern-driven Imagine requests |
+
+---
+
+### IV. REFERENCE ARCHIVE – [PromptPacks.zip](PromptPacks.zip)
+*(Optional future extension: thematic prompt packs for Tech, Fashion, Outdoor, etc.)*
+
+---
+
+### V. Qwen Model Reference (KeyShot 2026.1)
+
+The Qwen structured prompt grammar is integrated throughout the knowledge base:
+- **Structured format and output rules** → GPT_Guidelines.txt (Qwen Model Instructions section)
+- **Universal template and mode-specific field table** → Prompt_Template_Library.txt (Qwen Structured Prompt Format section)
+- **Qwen-optimized examples per mode** → Example_Use_Cases.txt (Qwen Structured Prompt Examples section)
+- **PBR-equivalent pipeline reference** → User Best Practices Guide.txt (Qwen Structured Prompting section)
+- **Mode-specific Qwen templates** → Each Mode Guide file (Qwen section at end)
+
+---
+
+### VI. CHANGELOG
+| File | Purpose |
+|------|---------|
+| [CHANGELOG.txt](CHANGELOG.txt) | Version history and update log |
+
+---
