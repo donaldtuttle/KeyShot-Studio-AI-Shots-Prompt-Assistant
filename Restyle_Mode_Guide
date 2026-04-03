@@ -1,0 +1,165 @@
+## 📄 `Restyle_Mode_Guide.txt`
+
+---
+
+# 🖌️ Restyle Mode Guide
+
+**Mode:** `Restyle`
+**Purpose:** Creative styling exploration — rapidly generate material, color, and lighting variations while preserving object layout and camera composition.
+
+---
+
+## 🎯 Overview
+
+Restyle Mode in KeyShot AI is a powerful tool designed for **reimagining the look and feel** of an existing scene without altering its geometry or layout. It allows users to explore multiple creative directions — such as material finishes, lighting atmospheres, and CMF stories — using only a descriptive prompt.
+
+This mode is ideal for **color/material/finish (CMF)** exploration, **marketing adaptation**, and **mood-based iteration**, making it perfect for creative reviews, seasonal updates, and style testing.
+
+---
+
+## 🧠 Key Behavior
+
+* The model and scene layout remain untouched.
+* Only visual style — surface material, lighting tone, color palette — is modified.
+* Designed for *iteration*, not ideation or background creation.
+* Uses natural language input to guide appearance transformation.
+
+---
+
+## 🔧 Creative Parameters You Can Influence
+
+| Parameter          | Example Keywords                                          |
+| ------------------ | --------------------------------------------------------- |
+| **Material Type**  | wood, ceramic, metallic, soft-touch rubber, frosted glass |
+| **Surface Finish** | glossy, matte, brushed, embossed, translucent             |
+| **Lighting Mood**  | soft ambient, golden hour, moody studio, cool fluorescent |
+| **Color Palette**  | earth tones, monochrome, pastel, industrial grayscale     |
+| **Design Vibe**    | luxury, futuristic, retro, sustainable, playful           |
+
+---
+
+🎨 Restyle Mode Templates
+Use these for CMF refinement, storytelling, or seasonal marketing assets.
+
+🆕 Minimalist Branding Pass
+“Restyle this scene with a minimal and premium material story — soft-touch rubber, matte black resin, and subtle stainless accents. Use neutral daylight to support a clean lifestyle tech brand.”
+
+🌿 Eco/Sustainable Finish Concept
+“Apply a natural CMF direction: cork, recycled polymers, and untreated oak textures. Use warm ambient lighting for a sustainable, honest feel.”
+
+🧊 Winter Product Edition
+“Restyle with icy white polycarbonate, satin silver, and cool frosted acrylic. Include soft overcast lighting to evoke a limited winter edition look.”
+
+---
+
+## 🛠️ Prompt Structure Template
+
+```
+ **Restyle Prompt**:
+“Restyle this scene using a [material style] approach. Incorporate [real-world materials or finishes] with [lighting type] to evoke a [mood or tone]. KeyShot AI should preserve geometry and layout while adjusting style only.”
+
+ **Restyle Prompt Example**:
+“Restyle using a natural CMF: raw clay, cork, and brushed bronze. Use warm ambient light to create an earthy, tactile tone — ideal for eco-conscious product packaging.”
+```
+
+---
+
+## ✅ Sample Prompts
+
+1.
+
+> “Restyle this product with a warm, natural material palette — oak wood, matte stone, and white ceramic — under soft directional daylight. The overall aesthetic should feel handcrafted and organic.”
+
+2.
+
+> “Apply a futuristic CMF story: brushed aluminum, deep black carbon fiber, and illuminated accents. Use cool, clinical lighting for a clean sci-fi mood.”
+
+3.
+
+> “Restyle using a bold, pop-art vibe — bright primary colors, high-gloss plastic, and hard key lighting. Make it feel vibrant, playful, and ideal for youth-focused branding.”
+
+---
+
+## 💡 Best Practices
+
+* Always use **realistic material types** to ensure credible output.
+* Stick to **3–4 visual variables** per prompt to avoid ambiguity.
+* Avoid spatial or structural requests (e.g., “move object,” “add shadow”) — those belong in other modes.
+* Combine **mood with material**: "soft & minimal" + "concrete & white oak" = rich, intentional prompts.
+
+---
+
+## 🚫 Constraints
+
+* Do NOT mention scene layout changes (camera angle, repositioning).
+* Avoid asking for new objects or background changes.
+* Do not include humans, branding, vehicles, or complex context settings.
+
+---
+
+## 🎯 Ideal Use Cases
+
+* Exploring product finish variations (e.g., “summer collection” vs. “winter edition”)
+* Creating marketing visuals with distinct moods from a master render
+* Presenting styling options to clients during review rounds
+* Testing how different materials affect brand perception
+
+---
+
+## 📈 Real-World User Examples
+
+| Role               | Use Case                                                             |
+| ------------------ | -------------------------------------------------------------------- |
+| Watch Designer     | Generated 5 seasonal finishes from one base scene                    |
+| Tech Studio        | Explored matte, glossy, and eco finishes for product launch visuals  |
+| Packaging Designer | Created “natural,” “luxury,” and “clinical” variants for same bottle |
+
+---
+
+## 🔧 Qwen-Optimized Structured Prompts for Restyle
+
+As of KeyShot 2026.1, the Qwen model responds best to structured, attribute-based prompts. For Restyle, the key fields are **MATERIALS**, **LIGHTING**, **COLOR**, and **STYLE** — while SUBJECT, COMPOSITION, and ENVIRONMENT remain inherited from the base render.
+
+### Structured Restyle Template
+
+```
+MATERIALS: [target surface types, finishes, roughness, reflectivity]
+LIGHTING: [light source, direction, softness, temperature, contrast]
+COLOR: [dominant palette, accent hues, saturation]
+STYLE: [aesthetic treatment, visual medium]
+QUALITY: [detail level, realism target]
+EXCLUSIONS: [unwanted artifacts or styles]
+```
+
+### Example: Luxury Tech Restyle
+
+**Structured:**
+```
+MATERIALS: brushed anodized aluminum, matte black polymer, frosted glass accents
+LIGHTING: soft key light from upper left, subtle rim light, controlled shadow falloff
+COLOR: gunmetal gray, deep navy accents, cool silver highlights
+STYLE: premium product photography, clean industrial aesthetic
+QUALITY: ultra-detailed, high realism, crisp material definition
+EXCLUSIONS: no color bleed, no plastic-looking surfaces, no oversaturation
+```
+
+**Compiled:**
+```
+brushed anodized aluminum with matte black polymer and frosted glass accents, soft key light from upper left with subtle rim light and controlled shadow falloff, gunmetal gray and deep navy palette with cool silver highlights, premium product photography with clean industrial aesthetic, ultra-detailed high realism, no color bleed no plastic-looking surfaces
+```
+
+### Example: Eco-Natural Restyle
+
+**Structured:**
+```
+MATERIALS: raw cork, recycled linen fiber, untreated ash wood, matte ceramic
+LIGHTING: warm diffused daylight from camera left, soft ambient fill
+COLOR: warm sand, muted olive, natural cream, pale terracotta
+STYLE: sustainable product design, organic tactile aesthetic
+QUALITY: high detail, natural surface texture fidelity
+EXCLUSIONS: no synthetic gloss, no harsh reflections, no cool tones
+```
+
+---
+
+Would you like me to now generate the next guide file: `Imagine_Mode_Guide.txt`?
