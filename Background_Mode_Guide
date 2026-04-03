@@ -1,0 +1,165 @@
+## 📄 `Background_Mode_Guide.txt`
+
+---
+
+# 🏙️ Background Mode Guide
+
+**Mode:** `Background`
+**Purpose:** Generate realistic, context-aware background environments around a rendered subject — ideal for product storytelling, marketing, and presentation enhancement.
+
+---
+
+## 🎯 Overview
+
+Background Mode in KeyShot AI is designed to **elevate the presentation** of rendered products by placing them into rich, photorealistic settings — all created from a simple text prompt. It adds depth, narrative, and brand context to your visuals **without altering your subject**.
+
+Whether you’re crafting lifestyle imagery, pitch decks, or in-situ visuals, Background Mode allows you to generate AI environments that feel authentic and seamlessly matched to the product's lighting and composition.
+
+---
+
+## 🧠 Key Behavior
+
+* **Your product render stays untouched.**
+* AI generates a **background scene** around your existing image.
+* Lighting and perspective are automatically matched to the original.
+* Clean ground planes and clutter-free framing are prioritized.
+
+---
+
+🏙️ Background Mode Templates
+Add depth and context that aligns with your product’s tone or use-case.
+
+🛠️ Tech-Workbench Background
+“Create a background showing an industrial engineer’s workbench with brushed steel, PCB fragments, and soft tool shadows. Lighting should be focused and functional — ideal for a pro hardware scene.”
+
+🛋️ Lifestyle Placement Prompt
+“Background of a modern apartment shelf with neutral wood grain, soft bounce light from a nearby window, and minimalist accessories. Perfect for showcasing consumer gadgets in a cozy space.”
+
+🧪 Clinical Lab / Scientific Context
+“Generate a sterile lab table with smooth white epoxy surface and clean light diffusion from above. Ideal for displaying medtech or precision tools.”
+
+---
+
+## 🛠️ Prompt Structure Template
+
+```
+**Background Prompt Example**:
+"Create a clean, concrete retail plinth in soft window light with a minimalist interior wall behind. The background should feel elevated and modern — ideal for premium audio hardware display."
+```
+
+---
+
+## ✅ Sample Prompts
+
+1.
+
+> “Generate a sleek, modern kitchen background with matte black cabinetry, stone countertops, and soft window lighting. The mood should be sophisticated and clean — ideal for premium countertop appliances.”
+
+2.
+
+> “Create an outdoor trail at sunrise with a gravel path, dappled light filtering through trees, and a serene atmosphere. Perfect for a fitness tracker or outdoor gear presentation.”
+
+3.
+
+> “Background of a sunlit retail boutique with warm hardwood floors, minimalist shelving, and soft natural shadows. The space should feel calm, curated, and upscale — suitable for a luxury cosmetic render.”
+
+---
+
+## 🔧 Elements to Include
+
+| Category             | Examples                                                    |
+| -------------------- | ----------------------------------------------------------- |
+| **Environment Type** | loft interior, urban street, forest clearing, gallery space |
+| **Ground Surface**   | concrete, wood, gravel, tile, marble                        |
+| **Lighting Mood**    | morning sun, studio soft light, overcast natural light      |
+| **Visual Tone**      | cozy, industrial, luxurious, clean, moody                   |
+| **Product Use Case** | tech, furniture, packaging, fashion, wellness               |
+
+---
+
+## 💡 Best Practices
+
+* Focus on **clean, open ground** and logical product placement context.
+* Mention **time of day** or **lighting style** for realism and consistency.
+* Avoid complex depth layering unless needed (e.g., distant background elements).
+* Maintain **a clear floor or surface plane** for grounded visuals.
+* Match the tone to the product's brand (e.g., rustic for handmade goods, sleek for tech).
+
+---
+
+## 🚫 Constraints
+
+* Never modify or obscure the subject render.
+* Do not include humans, vehicles, or branding.
+* Avoid crowded or cluttered backgrounds.
+* Skip any mention of image manipulation — just describe the **scene**.
+
+---
+
+## 🎯 Ideal Use Cases
+
+* Generating multiple lifestyle backgrounds for a single hero product
+* Crafting marketing imagery without physical set design
+* Creating polished visuals for client pitches and presentations
+* Adding brand-consistent environmental context to standalone renders
+
+---
+
+## 📈 Real-World User Examples
+
+| Role               | Use Case                                                                         |
+| ------------------ | -------------------------------------------------------------------------------- |
+| Furniture Designer | Tested 3 backgrounds — modern loft, industrial studio, sunroom — with same product |
+| Packaging Team     | Applied consistent backgrounds across 5 SKU renders for visual branding cohesion   |
+| Interior Architect | Created conceptual vignettes using neutral showrooms and gallery walls           |
+
+---
+
+## 🔧 Qwen-Optimized Structured Prompts for Background
+
+As of KeyShot 2026.1, the Qwen model delivers stronger results with structured, attribute-based prompts. For Background Mode, the key fields are **ENVIRONMENT**, **LIGHTING**, **MATERIALS**, and **COLOR** — while SUBJECT is inherited from the existing product render.
+
+### Structured Background Template
+
+```
+ENVIRONMENT: [setting type, spatial context, depth]
+LIGHTING: [source, direction, softness, temperature, match to product]
+MATERIALS: [ground surface, wall/backdrop textures, micro-detail]
+COLOR: [dominant palette, accent tones, saturation level]
+STYLE: [photographic style, realism level]
+QUALITY: [detail, clarity, atmospheric depth]
+EXCLUSIONS: [unwanted elements, clutter, distractions]
+```
+
+### Example: Premium Retail Display
+
+**Structured:**
+```
+ENVIRONMENT: minimalist retail showroom with clean sightlines and receding depth
+LIGHTING: soft overhead diffused light with warm accent spots, matched to product lighting direction
+MATERIALS: polished light marble floor, smooth plaster wall, brushed brass shelf edge
+COLOR: warm ivory, soft champagne, muted graphite accents
+STYLE: architectural interior photography, clean commercial aesthetic
+QUALITY: high realism, crisp surfaces, controlled atmospheric haze
+EXCLUSIONS: no clutter, no branded signage, no people, no competing focal points
+```
+
+**Compiled:**
+```
+minimalist retail showroom with clean sightlines and receding depth, soft overhead diffused light with warm accent spots matched to product lighting direction, polished light marble floor with smooth plaster wall and brushed brass shelf edge, warm ivory and soft champagne palette with muted graphite accents, architectural interior photography with clean commercial aesthetic, high realism with crisp surfaces and controlled atmospheric haze, no clutter no branded signage no people no competing focal points
+```
+
+### Example: Rugged Outdoor Context
+
+**Structured:**
+```
+ENVIRONMENT: mountain trail overlook at golden hour with layered terrain
+LIGHTING: golden backlight from low sun, soft ambient fill from open sky, long warm shadows
+MATERIALS: weathered granite, packed dirt trail, sparse dry grass, distant pine bark
+COLOR: warm amber, dusty ochre, muted forest green, pale sky blue
+STYLE: outdoor editorial photography, natural realism
+QUALITY: atmospheric depth, natural detail, soft background falloff
+EXCLUSIONS: no vehicles, no people, no structures, no artificial objects
+```
+
+---
