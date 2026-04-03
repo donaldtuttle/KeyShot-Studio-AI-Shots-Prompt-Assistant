@@ -1,0 +1,175 @@
+## 📄 `Prompt_Template_Library.txt`
+
+---
+
+# 🧰 Prompt Template Library
+
+**Purpose:** Provide users with easy-to-adapt KeyShot AI prompt templates for each KeyShot AI mode — Restyle, Imagine, and Background. Includes mood, lighting, material, and setting vocab to support creative exploration and quick ideation.
+
+---
+
+## 🎨 Restyle Mode Templates
+
+*Transform your scene’s materials, lighting, and mood while preserving layout and structure.*
+
+### 🔧 Template:
+
+```
+ **Restyle Prompt**:
+“Restyle this scene using a [material style] approach. Incorporate [real-world materials or finishes] with [lighting type] to evoke a [mood or tone]. KeyShot AI should preserve geometry and layout while adjusting style only.”
+
+```
+
+### ✅ Examples:
+
+* “Restyle this scene with a soft, natural material approach — clay, raw linen, and ash wood — under diffused daylight for a peaceful, minimal look.”
+* “Use high-gloss plastics and vibrant colors with dramatic lighting for a fun, youth-focused lifestyle concept.”
+* “Restyle using a natural CMF: raw clay, cork, and brushed bronze. Use warm ambient light to create an earthy, tactile tone — ideal for eco-conscious product packaging.”
+
+---
+
+## 🌌 Imagine Mode Templates
+
+*Create mood-driven, abstract, or narrative scenes from scratch to spark ideation.*
+
+### 🔧 Template:
+
+```
+# **Imagine Prompt**:
+“Imagine a [setting or abstract world] filled with [visual features]. Use [light behavior] to evoke a [mood or emotion]. KeyShot AI should prioritize mood, genre, and visual story — no geometry or modeling logic needed."
+
+```
+
+### ✅ Examples:
+
+* “Imagine a bioluminescent underwater cave with glowing coral walls, slow-moving currents, and shafts of ethereal light. The mood is serene and mysterious — ideal for early-stage wellness product exploration.”
+* “Sketch a neon-lit cyberpunk alley at night with wet pavement, glowing signage, and dense urban layers. Designed for immersive concept art in tech design.”
+* “Imagine a translucent canyon of floating ice slabs, lit by a soft lavender sky glow. The scene should feel isolated, serene, and mystical — designed for speculative wellness tech.”
+
+---
+
+## 🏙️ Background Mode Templates
+
+*Generate a clean, realistic scene around your product without altering the subject.*
+
+### 🔧 Template:
+
+```
+ **Background Prompt:**  
+“Create a background of a [realistic setting] with [ground material] and [lighting condition]. It should feel [emotional tone] and support visuals for [product type or use-case]. KeyShot AI must maintain subject clarity and match lighting/perspective without altering the product.”
+```
+
+### ✅ Examples:
+
+* “Create a sunlit concrete rooftop with soft shadows and a distant skyline. The space should feel modern and open — ideal for showcasing fitness equipment.”
+* “Background of a minimalist gallery room with neutral walls, a light wood floor, and soft ambient lighting. Great for premium furniture product renders.”
+* "Create a clean, concrete retail plinth in soft window light with a minimalist interior wall behind. The background should feel elevated and modern — ideal for premium audio hardware display."
+
+---
+
+## 🎨 Material Vocabulary for Restyle
+
+| Category         | Terms                                            |
+| ---------------- | ------------------------------------------------ |
+| **Natural**      | oak, bamboo, cork, clay, limestone, marble       |
+| **Synthetic**    | ABS plastic, polycarbonate, carbon fiber, rubber |
+| **Premium**      | brass, brushed aluminum, frosted glass, leather  |
+| **Experimental** | iridescent coating, color-shift film, soft resin |
+
+---
+
+## 🌈 Mood / Aesthetic Vocabulary
+
+| Mood               | Keywords                                                  |
+| ------------------ | --------------------------------------------------------- |
+| **Luxury**         | refined, minimalist, soft gold, polished stone            |
+| **Futuristic**     | tech-driven, ambient glow, cool-toned metal               |
+| **Sustainable**    | raw, natural fibers, warm earth tones, eco-conscious feel |
+| **Bold & Playful** | vibrant colors, plastic, gloss finish, hard lighting      |
+| **Clinical**       | clean, sterile, white and steel, soft overhead lighting   |
+
+---
+
+## ☀️ Lighting Styles
+
+| Type                 | Description                                             |
+| -------------------- | ------------------------------------------------------- |
+| **Soft daylight**    | Natural, diffused light from windows                    |
+| **Overcast**         | Flat, moody lighting with no harsh shadows              |
+| **Studio spotlight** | High-contrast, direct light ideal for product isolation |
+| **Golden hour**      | Warm, angled light for emotional and cinematic effect   |
+| **Cool ambient**     | Blue-toned low lighting, ideal for tech or calm moods   |
+
+---
+
+## 🏗️ Environment Settings for Background
+
+| Environment Type | Ground Material       | Use Cases                          |
+| ---------------- | --------------------- | ---------------------------------- |
+| Urban Rooftop    | Concrete              | Tech products, fitness gear        |
+| Loft Interior    | Hardwood, tile        | Furniture, lifestyle               |
+| Outdoor Trail    | Gravel, dirt path     | Wearables, hydration, outdoor gear |
+| Retail Boutique  | Marble, polished wood | Cosmetics, luxury packaging        |
+| Design Studio    | Polished concrete     | Tools, desk gear, minimal design   |
+
+---
+
+## 🧠 How to Use This Library:
+
+1. Choose your **KeyShot AI Mode** (Restyle / Imagine / Background).
+2. Pick a **template** and plug in the most relevant creative variables.
+3. Refer to **vocab sections** to enhance specificity.
+4. Edit the result as needed and send to KeyShot’s AI engine.
+
+---
+
+## 🔧 Qwen Structured Prompt Format (KeyShot 2026.1)
+
+As of KeyShot 2026.1, the AI engine uses the Qwen model which responds best to structured, attribute-based prompts. Below is the universal structured format that works across all modes.
+
+### Universal Structured Template
+
+```
+SUBJECT: [hero subject or scene element]
+COMPOSITION: [framing, angle, crop, placement]
+ENVIRONMENT: [location or background setting]
+LIGHTING: [source, direction, softness, contrast, temperature]
+MATERIALS: [surface types, reflectivity, roughness, texture detail]
+COLOR: [dominant palette and accents]
+CAMERA: [lens, depth of field, perspective]
+STYLE: [visual medium / aesthetic]
+QUALITY: [detail and realism target]
+EXCLUSIONS: [artifact suppression, unwanted elements]
+```
+
+### One-Line Compiled Format
+
+```
+[subject], [composition], [environment], [lighting], [materials], [color], [camera], [style], [quality], [exclusions]
+```
+
+### Mode-Specific Field Usage
+
+| Field | Restyle | Imagine | Background |
+|-------|---------|---------|------------|
+| SUBJECT | Inherited | ✅ Required | Inherited |
+| COMPOSITION | Inherited | ✅ Required | Inherited |
+| ENVIRONMENT | Inherited | ✅ Required | ✅ Required |
+| LIGHTING | ✅ Key field | ✅ Required | ✅ Key field |
+| MATERIALS | ✅ Key field | ✅ Required | ✅ Key field |
+| COLOR | ✅ Key field | ✅ Required | ✅ Key field |
+| CAMERA | Inherited | Optional | Inherited |
+| STYLE | ✅ Key field | ✅ Required | Optional |
+| QUALITY | Recommended | Recommended | Recommended |
+| EXCLUSIONS | Optional | Optional | Optional |
+
+### Qwen Prompting Principles
+
+- Prefer explicit attributes over vague language
+- Use clear ordering: subject → environment → lighting → materials → camera → style
+- Avoid poetic filler — favor concrete visual descriptors
+- Physical descriptions before stylistic modifiers
+- Composition anchors consistency across generations
+- Surface/material language is the biggest consistency multiplier
+
+---
