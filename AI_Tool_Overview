@@ -1,0 +1,106 @@
+## 📄 `AI_Tool_Overview.txt`
+
+---
+
+# 🧠 AI Tool Overview 
+
+**Purpose:** Provide a clear, concise reference for KeyShot’s new AI-powered rendering tools — including their intent, functionality, comparative use cases, and value within modern 3D workflows.
+
+---
+
+## 🎯 Tool Summary
+
+KeyShot AI introduces three prompt-driven tools — **Restyle**, **Imagine**, and **Background** — each are designed to enhance a different stage of the 3D visualization process. These tools empower users to ideate faster, explore more creatively, and generate rich visual content with minimal manual setup.
+
+---
+
+## 🛠️ Design Goals
+
+* **Accelerate Creativity:** Reduce technical friction in styling, ideation, and contextual rendering.
+* **Prompt-Based Control:** Replace complex scene setup with natural language direction.
+* **Visual Flexibility:** Support fast CMF iterations, conceptual exploration, and environmental storytelling.
+* **No Rework:** Preserve product renderings, model layout, and composition — especially in Restyle and Background modes.
+* **Early Ideation:** Enable visual sketching and alignment *before* modeling starts.
+
+---
+
+## 🔁 Comparison of Modes
+
+| Mode         | Purpose                                    | Requires Base Render? | Alters Subject? | Ideal For                                |
+| ------------ | ------------------------------------------ | --------------------- | --------------- | ---------------------------------------- |
+| **Restyle**  | Apply new CMF/mood while keeping layout    | ✅ Yes                 | ❌ No            | CMF studies, styling options, reviews    |
+| **Imagine**  | Generate scenes from scratch using prompts | ❌ No                  | 🚫 N/A          | Moodboards, early concepts, storytelling |
+| **Background** | Add a matching background behind subject   | ✅ Yes                 | ❌ No            | Context shots, marketing visuals         |
+
+---
+
+## 🧩 Integration with Product Workflows
+
+| Workflow Stage        | AI Tool Used       | Role in Process                                                            |
+| --------------------- | ------------------ | -------------------------------------------------------------------------- |
+| Pre-design / Ideation | Imagine Mode       | Visualize early themes, tone, and style direction                          |
+| Design Development    | Restyle Mode       | Explore finish, material, and color variants without model changes         |
+| Presentation / Review | Background Mode      | Place the subject in relevant, visually rich environments for storytelling |
+| Marketing Output      | Restyle + Background | Create branded visuals across seasonal or product line variations          |
+
+---
+
+## 🚀 Creativity Without Modeling
+
+All three modes reduce the need for technical setup or scene building by relying on **text prompts** that guide the AI rendering engine. This enables:
+
+* Creative alignment **before modeling**
+* Faster CMF direction reviews
+* Increased productivity across product, brand, and marketing teams
+
+---
+
+## 🧠 Summary
+
+All prompts should be authored to align with KeyShot’s AI engine. Prompts must follow constraints per mode (Restyle, Imagine, Background), using natural language, clear mood intent, and credible material and lighting terms. KeyShot’s AI will preserve structure and layout, while applying stylistic or environmental changes based on the input description.
+
+---
+
+## 🔧 AI Model: Qwen Structured Prompt Engine
+
+As of KeyShot 2026.1, all three AI modes are powered by the **Qwen** image generation model. Qwen performs best with **structured, attribute-based prompts** that use explicit visual descriptors organized by category.
+
+### Prompt Architecture
+
+All prompts should follow this semantic pipeline:
+
+```
+SUBJECT → COMPOSITION → ENVIRONMENT → LIGHTING → MATERIALS → COLOR → CAMERA → STYLE → QUALITY → EXCLUSIONS
+```
+
+### Structured vs. Compiled Formats
+
+**Structured** (for planning and clarity):
+```
+SUBJECT: [hero subject]
+COMPOSITION: [framing, angle, crop]
+ENVIRONMENT: [setting or background]
+LIGHTING: [source, direction, softness, temperature]
+MATERIALS: [surface types, reflectivity, roughness]
+COLOR: [dominant palette and accents]
+CAMERA: [lens, depth of field]
+STYLE: [visual medium / aesthetic]
+QUALITY: [detail and realism target]
+EXCLUSIONS: [artifact suppression]
+```
+
+**Compiled** (single-line for engine input):
+```
+[subject], [composition], [environment], [lighting], [materials], [color], [camera], [style], [quality], [exclusions]
+```
+
+### Key Principles for Qwen
+
+- Prefer explicit attributes over vague language
+- Use clear subject → environment → lighting → materials → camera → style ordering
+- Avoid poetic filler words — favor concrete visual descriptors
+- Treat prompt authoring as scene specification, not decorative sentences
+- Physical descriptions before stylistic modifiers
+- Composition is never optional — without it, results are inconsistent
+
+---
