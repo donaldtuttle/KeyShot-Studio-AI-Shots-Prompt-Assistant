@@ -1,0 +1,172 @@
+## 📄 `Example_Use_Cases.txt`
+
+---
+
+# 📊 Example Use Cases
+
+**Purpose:** Showcase practical, real-world applications of KeyShot AI modes — Restyle, Imagine, and Background — with contextual descriptions and sample prompts to help users relate and get inspired.
+
+---
+
+## 🎨 Restyle Mode Use Cases
+
+---
+
+### 🕒 Use Case: *Seasonal CMF Variations for a Luxury Watch*
+
+**User Role:** Product Designer
+**Challenge:** Present five visual directions for one hero watch render.
+**Prompt Example:**
+
+> “Restyle this luxury watch using brushed bronze, sand-toned leather, and warm amber lighting for an autumn collection feel.”
+
+---
+
+### 🧴 Use Case: *Mood-Based Packaging Explorations*
+
+**User Role:** Packaging Designer
+**Challenge:** Showcase the same skincare bottle in three distinct moods.
+**Prompt Examples:**
+
+1. “Natural luxury: matte white ceramic, bamboo cap, sunlit studio lighting.”
+2. “Clinical: frosted glass, stainless accents, sterile white background.”
+3. “Playful: pastel plastics, soft bounce light, vibrant retail shelf vibe.”
+
+---
+
+### 🖥️ Use Case: *Marketing Material Variants*
+
+**User Role:** Creative Director
+**Challenge:** Generate multiple visual tones from a base product render.
+**Prompt Example:**
+
+> “Restyle with a bold, tech-forward style — neon edge lighting, metallic cobalt housing, and deep matte black contrast.”
+
+---
+
+## 🌌 Imagine Mode Use Cases
+
+---
+
+### 🌿 Use Case: *Bio-Inspired Visual Exploration for Packaging*
+
+**User Role:** Innovation Strategist
+**Challenge:** Generate visual territory before product modeling begins.
+**Prompt Example:**
+
+> “Imagine a living forest interior with breathable walls, translucent moss structures, and golden ambient mist — evoking natural wellness technology.”
+
+---
+
+### 🛰️ Use Case: *Futuristic UI Ideation for Wearables*
+
+**User Role:** UI/UX Designer
+**Challenge:** Create visual inspiration for an interface concept.
+**Prompt Example:**
+
+> “Visualize a floating, minimal holographic UI over a soft-lit void. The interface should feel intuitive, serene, and tech-empathetic.”
+
+---
+
+### 🧠 Use Case: *Moodboard Generation for Early Creative Alignment*
+
+**User Role:** Creative Team Lead
+**Challenge:** Align team with visual style before creative kickoff.
+**Prompt Example:**
+
+> “Imagine a surreal desert landscape with monolithic forms, glowing from within. A concept scene for a luxury wellness experience brand.”
+
+---
+
+## 🏙️ Background Mode Use Cases
+
+---
+
+### 🪑 Use Case: *Furniture Staging Without a Physical Set*
+
+**User Role:** Furniture Designer
+**Challenge:** Place a product in 3 marketing-ready environments.
+**Prompt Examples:**
+
+1. “Modern loft with daylight and polished concrete floors.”
+2. “Sunlit greenhouse conservatory with tile and potted plants.”
+3. “Dark, moody industrial studio with backlit windows.”
+
+---
+
+### 🎒 Use Case: *Outdoor Contextual Backgrounds for Adventure Gear*
+
+**User Role:** Outdoor Brand Visualizer
+**Challenge:** Add natural context for a backpack product render.
+**Prompt Example:**
+
+> “Create a rugged mountain trail at sunrise with gravel terrain, pine trees, and golden rim lighting — ideal for outdoor performance gear.”
+
+---
+
+### 💄 Use Case: *Retail Lifestyle Imagery for Cosmetic Launch*
+
+**User Role:** Brand Marketing Designer
+**Challenge:** Generate multiple branded lifestyle scenes for a single hero shot.
+**Prompt Examples:**
+
+* “Background of a clean marble vanity with soft morning window light.”
+* “Background of a luxury boutique shelf with dim ambient spotlights and warm wood textures.”
+
+---
+
+## 🧠 Key Takeaway Patterns
+
+| Use Case Type      | Ideal Mode | Primary Prompt Focus                                          |
+| ------------------ | ---------- | ------------------------------------------------------------- |
+| CMF Exploration    | Restyle    | Materials, lighting, emotional tone                           |
+| Concept Ideation   | Imagine    | Mood, abstract form, lighting, genre                          |
+| Marketing Context  | Background   | Environment, surface, lighting                                |
+| Pitch Deck Visuals | All        | Combine Restyle (style), Imagine (vision), Background (context) |
+
+---
+
+## 🔧 Qwen Structured Prompt Examples (KeyShot 2026.1)
+
+### Restyle — Seasonal CMF (Structured Format)
+
+```
+MATERIALS: brushed bronze case, sand-toned leather strap, warm amber crystal
+LIGHTING: golden hour directional light, soft shadow falloff
+COLOR: warm bronze, caramel, muted amber, ivory dial
+STYLE: luxury product photography, autumn collection aesthetic
+QUALITY: high detail, premium surface definition
+EXCLUSIONS: no cool tones, no synthetic-looking materials
+```
+
+### Imagine — Wellness Brand World (Structured Format)
+
+```
+SUBJECT: floating translucent meditation pods
+ATTRIBUTES: organic curved forms, semi-transparent shell, interior soft glow
+STATE: hovering in still air, serene and dormant
+COMPOSITION: wide symmetrical shot, pods arranged in gentle arc
+ENVIRONMENT: infinite pale mist void with subtle ground reflection
+LIGHTING: soft omnidirectional ambient, warm interior glow per pod
+MATERIALS: frosted glass shell, soft-touch matte interior, luminescent membrane
+COLOR: pale sage, soft cream, warm peach accents
+CAMERA: 35mm moderate depth of field, centered perspective
+STYLE: speculative wellness concept art, refined minimalism
+QUALITY: atmospheric, high detail, gallery-quality finish
+EXCLUSIONS: no hard edges, no mechanical elements, no text, no people
+```
+
+### Background — Tech Product Showcase (Structured Format)
+
+```
+ENVIRONMENT: clean dark studio platform with subtle reflective surface
+LIGHTING: focused overhead softbox, thin rim light from rear right, deep controlled shadows
+MATERIALS: matte black acrylic platform, seamless dark gray backdrop, subtle floor reflection
+COLOR: deep charcoal, matte black, cool steel accent
+STYLE: studio product photography, premium tech aesthetic
+QUALITY: crisp, high realism, clean edges
+EXCLUSIONS: no clutter, no visible seams, no color cast, no distracting reflections
+```
+
+---
+
