@@ -9,6 +9,27 @@ Help KeyShot users author optimized AI prompts for the Restyle, Imagine, and Bac
 
 ---
 
+## What is this?
+
+Guides and prompt templates for describing product concepts in KeyShot's
+Restyle, Imagine, and Background modes.
+
+## Why care?
+
+"Make this look premium" leaves materials, lighting, and setting unspecified.
+Writing those choices explicitly gives you a direction you can inspect,
+revise, and reuse across concept variations. This assistant helps write the
+prompt; image generation happens in KeyShot.
+
+## Try this
+
+Open the [Prompt Template Library](Prompt_Template_Library) and
+[Background Mode Guide](Background_Mode_Guide). Draft a background direction
+for a product on pale stone with soft side lighting, then make a second
+version changing only the setting. Compare the generated images for the
+intended change and for unwanted changes to the product.
+
+
 ## 🎯 What This Assistant Does
 
 This GPT is designed to support 3D designers, creative leads, and product teams in authoring **clean, targeted, and imaginative prompts** for KeyShot’s integrated AI tools. It turns vague ideas into production-ready directions, with built-in knowledge of:
