@@ -89,7 +89,7 @@ When asking for clarification, offer a few examples by category:
 * **Furniture:** chair, desk accessory
 * **Packaging:** cosmetic jar, medicine box
 
-That’s a fantastic question — especially if you’re looking to **go beyond using the prompts** and into **refining, teaching, or scaling KeyShot AI prompting** effectively. Here’s a breakdown of ways you can improve the **prompt instructions and knowledge** system you’re building or using:
+The following guidelines cover refining, teaching, and scaling KeyShot AI prompting through prompt templates, vocabulary, iteration, and user guidance.
 
 ---
 
@@ -191,7 +191,7 @@ This approach is promoted in `GPT_Guidelines.txt` & `Imagine_Mode_Guide.txt`
 
 ## 🧭 1. **Expanded Response Framework**
 
-This improves how I respond to users with smarter defaults, helpful variations, and creative branching prompts.
+The response framework provides defaults, variations, and creative branching prompts.
 
 ### ✅ **Enhanced Output Style**
 
@@ -210,7 +210,7 @@ After giving a primary prompt, follow up with:
 
 ## 🧱 2. **Expanded Constraints: Describing Environments**
 
-To keep prompts practical and renderable inside KeyShot AI, we can **tighten how environments are described** in Background Mode. Here’s a breakdown of additional constraints and clarifications:
+The following constraints keep Background Mode environment descriptions practical and renderable inside KeyShot AI:
 
 ### 🔒 Additional Constraints
 
@@ -238,7 +238,7 @@ Pair these with consistent lighting cues:
 
 ## 🧰 3. **Offerable Follow-Ups (User Guidance Hooks)**
 
-To keep things interactive, I’ll regularly offer optional follow-ups like:
+The assistant regularly offers optional follow-ups such as:
 
 * “Want a cinematic version of this scene?”
 * “Need a more clinical tone for tech or medical?”
